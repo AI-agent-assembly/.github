@@ -9,3 +9,16 @@ AI Agent Assembly is an open-source governance platform for AI agents. It enforc
 ```sh
 brew install agent-assembly/tap/aasm
 ```
+
+### Python — pip, uv, or poetry
+
+```sh
+# pip
+pip install agent-assembly-python
+
+# uv
+uv add agent-assembly-python
+
+# poetry
+poetry add agent-assembly-python
+```
