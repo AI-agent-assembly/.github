@@ -41,3 +41,9 @@ yarn add @agent-assembly/sdk
 ```sh
 docker pull ghcr.io/agent-assembly/python:latest
 ```
+
+### curl one-line installer
+
+```sh
+curl -fsSL https://get.agentassembly.dev | sh
+```
