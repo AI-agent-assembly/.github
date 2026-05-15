@@ -3,6 +3,7 @@
 [![CI](https://github.com/AI-agent-assembly/agent-assembly/actions/workflows/ci.yml/badge.svg)](https://github.com/AI-agent-assembly/agent-assembly/actions/workflows/ci.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Latest release](https://img.shields.io/github/v/release/AI-agent-assembly/agent-assembly)](https://github.com/AI-agent-assembly/agent-assembly/releases/latest)
+[![Discussions](https://img.shields.io/badge/community-Discussions-blue?logo=github)](https://github.com/AI-agent-assembly/agent-assembly/discussions)
 
 AI Agent Assembly is an open-source governance platform for AI agents. It enforces policy, tracks budget, and audits every action your agents take across three independent interception layers — in-process SDKs, a sidecar proxy, and eBPF kernel hooks — so you can ship multi-agent fleets without losing control of what they do.
 
