@@ -47,3 +47,7 @@ docker pull ghcr.io/agent-assembly/python:latest
 ```sh
 curl -fsSL https://get.agentassembly.dev | sh
 ```
+
+## Repositories
+
+- [agent-assembly](https://github.com/AI-agent-assembly/agent-assembly) — Core Rust monorepo: gateway, policy engine, three-layer interception, CLI, API, dashboard
