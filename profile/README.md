@@ -51,3 +51,4 @@ curl -fsSL https://get.agentassembly.dev | sh
 ## Repositories
 
 - [agent-assembly](https://github.com/AI-agent-assembly/agent-assembly) — Core Rust monorepo: gateway, policy engine, three-layer interception, CLI, API, dashboard
+- [python-sdk](https://github.com/AI-agent-assembly/python-sdk) — Python SDK (PyO3 native + pure-Python client)
