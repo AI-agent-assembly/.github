@@ -35,3 +35,9 @@ npm install @agent-assembly/sdk
 # yarn
 yarn add @agent-assembly/sdk
 ```
+
+### Docker
+
+```sh
+docker pull ghcr.io/agent-assembly/python:latest
+```
