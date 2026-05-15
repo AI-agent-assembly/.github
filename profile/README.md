@@ -22,3 +22,16 @@ uv add agent-assembly-python
 # poetry
 poetry add agent-assembly-python
 ```
+
+### Node.js — pnpm (recommended), npm, or yarn
+
+```sh
+# pnpm (recommended)
+pnpm add @agent-assembly/sdk
+
+# npm
+npm install @agent-assembly/sdk
+
+# yarn
+yarn add @agent-assembly/sdk
+```
