@@ -96,3 +96,11 @@ PRs always target `master`, even when your branch was created from another featu
 ### Scope
 
 Keep PRs focused. One concern per PR — don't bundle unrelated changes. If a single ticket needs more than ~500 lines of diff, split it into a sequence of stacked PRs.
+
+## Code review
+
+- At least **one approval** is required before merge.
+- Address every reviewer comment before requesting re-review.
+- Don't force-push during an active review (only allowed when rebasing onto the latest base branch — never to rewrite review history).
+- CI must be green before merge. Don't bypass with `--no-verify` or by disabling checks.
+- The reviewer or assignee picks the merge strategy (typically squash or rebase). The repo's default reflects the team's preference.
