@@ -13,3 +13,11 @@ assignees: ''
 ## Proposed solution
 
 <!-- Describe the feature you'd like to see. What should it do? How should users interact with it? -->
+
+## Alternatives considered
+
+<!-- What other approaches did you consider, and why are they less ideal? -->
+
+## Additional context
+
+<!-- Screenshots, mockups, links to related discussions, etc. -->
