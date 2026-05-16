@@ -104,3 +104,17 @@ Keep PRs focused. One concern per PR — don't bundle unrelated changes. If a si
 - Don't force-push during an active review (only allowed when rebasing onto the latest base branch — never to rewrite review history).
 - CI must be green before merge. Don't bypass with `--no-verify` or by disabling checks.
 - The reviewer or assignee picks the merge strategy (typically squash or rebase). The repo's default reflects the team's preference.
+
+## Developer Certificate of Origin
+
+By contributing to AI Agent Assembly, you certify that:
+
+1. The contribution was created in whole or in part by you, **or**
+2. The contribution is based on work that is licensed under an appropriate open-source license, **or**
+3. The contribution was provided directly to you by someone who certified (1) or (2).
+
+We do not currently require explicit commit sign-off (`git commit -s`), but reserve the right to add DCO bot enforcement in the future. If we do, we'll announce it on the relevant repo's Discussions and update this section.
+
+## License
+
+By contributing, you agree that your contributions will be licensed under the same license as the repository you're contributing to (Apache 2.0 for all public repos in this org, unless a specific repo states otherwise in its `LICENSE` file).
