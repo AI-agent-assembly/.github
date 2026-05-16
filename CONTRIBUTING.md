@@ -69,3 +69,30 @@ Keep each commit small and **bisectable** — one logical change per commit. If 
 | `🗑️` | Removal |
 | `🚨` | Lint / type-error fix |
 | `🎉` | Initial commit |
+
+## Pull Requests
+
+### Title
+
+```
+[<ticket>] <emoji> (<scope>): <imperative summary>
+```
+
+Example: `[AAASM-42] ✨ (gateway): Add /v1/capability/matrix endpoint`
+
+### Description
+
+Each repo provides a `.github/PULL_REQUEST_TEMPLATE.md`. Fill it out completely; at minimum the description must include:
+
+- **What changed** — one short paragraph
+- **Why** — motivation, context, ticket link
+- **How to verify** — manual steps or test reference
+- **Related issues** — ticket and any related GitHub issues
+
+### Base branch
+
+PRs always target `master`, even when your branch was created from another feature branch.
+
+### Scope
+
+Keep PRs focused. One concern per PR — don't bundle unrelated changes. If a single ticket needs more than ~500 lines of diff, split it into a sequence of stacked PRs.
