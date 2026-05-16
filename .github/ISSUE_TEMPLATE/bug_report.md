@@ -23,3 +23,14 @@ assignees: ''
 ## Actual behavior
 
 <!-- What actually happened? Include error messages, stack traces, screenshots if relevant. -->
+
+## Environment
+
+- **OS:** <!-- e.g., macOS 14.4, Ubuntu 22.04, Windows 11 -->
+- **Component / repo:** <!-- e.g., agent-assembly, python-sdk, node-sdk, go-sdk -->
+- **Version:** <!-- e.g., aasm 0.0.1, python-sdk 0.0.1 -->
+- **Runtime:** <!-- e.g., Python 3.12, Node 20.10, Rust 1.75 -->
+
+## Additional context
+
+<!-- Anything else: logs, related issues, recent config changes. -->
