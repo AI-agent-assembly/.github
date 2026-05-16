@@ -38,3 +38,34 @@ All feature and fix branches follow this four-part format:
 - `<short-summary>` — 2–4 words in `snake_case`, max 30 characters
 
 Example: `v0.0.1/AAASM-42/feat/add_agent_registry`
+
+## Commit messages
+
+Commits use [Gitmoji](https://gitmoji.dev/) format with a scope and imperative summary:
+
+```
+<emoji> (<scope>): <imperative summary>
+```
+
+Examples:
+
+- `✨ (gateway): Add /v1/capability/matrix endpoint`
+- `🐛 (auth): Fix token expiry check using UTC`
+- `♻️ (proxy): Extract MitM handler into a separate module`
+
+Keep each commit small and **bisectable** — one logical change per commit. If you need two sentences to describe a commit, split it into two.
+
+### GitEmoji reference
+
+| Emoji | Scope |
+|---|---|
+| `✨` | New feature |
+| `🐛` | Bug fix |
+| `♻️` | Refactor |
+| `✅` | Tests |
+| `📝` | Documentation |
+| `🔧` | Configuration / CI |
+| `⬆️` | Dependency upgrade |
+| `🗑️` | Removal |
+| `🚨` | Lint / type-error fix |
+| `🎉` | Initial commit |
