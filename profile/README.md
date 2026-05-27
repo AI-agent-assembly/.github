@@ -1,9 +1,15 @@
 # AI Agent Assembly
 
-[![CI](https://github.com/AI-agent-assembly/agent-assembly/actions/workflows/ci.yml/badge.svg)](https://github.com/AI-agent-assembly/agent-assembly/actions/workflows/ci.yml)
+[![Core CI](https://github.com/AI-agent-assembly/agent-assembly/actions/workflows/ci.yml/badge.svg)](https://github.com/AI-agent-assembly/agent-assembly/actions/workflows/ci.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Latest release](https://img.shields.io/github/v/release/AI-agent-assembly/agent-assembly)](https://github.com/AI-agent-assembly/agent-assembly/releases/latest)
+[![Core release](https://img.shields.io/github/v/release/AI-agent-assembly/agent-assembly)](https://github.com/AI-agent-assembly/agent-assembly/releases/latest)
 [![Discussions](https://img.shields.io/badge/community-Discussions-blue?logo=github)](https://github.com/AI-agent-assembly/agent-assembly/discussions)
+[![Python SDK tag](https://img.shields.io/github/v/tag/AI-agent-assembly/python-sdk?label=python-sdk)](https://github.com/AI-agent-assembly/python-sdk/tags)
+[![Node SDK tag](https://img.shields.io/github/v/tag/AI-agent-assembly/node-sdk?label=node-sdk)](https://github.com/AI-agent-assembly/node-sdk/tags)
+[![Go SDK tag](https://img.shields.io/github/v/tag/AI-agent-assembly/go-sdk?label=go-sdk)](https://github.com/AI-agent-assembly/go-sdk/tags)
+[![Open issues](https://img.shields.io/github/issues/AI-agent-assembly/agent-assembly)](https://github.com/AI-agent-assembly/agent-assembly/issues)
+[![Open PRs](https://img.shields.io/github/issues-pr/AI-agent-assembly/agent-assembly)](https://github.com/AI-agent-assembly/agent-assembly/pulls)
+[![Last commit](https://img.shields.io/github/last-commit/AI-agent-assembly/agent-assembly)](https://github.com/AI-agent-assembly/agent-assembly/commits/master)
 
 AI Agent Assembly is an open-source governance platform for AI agents. It enforces policy, tracks budget, and audits every action your agents take across three independent interception layers — in-process SDKs, a sidecar proxy, and eBPF kernel hooks — so you can ship multi-agent fleets without losing control of what they do.
 
@@ -72,27 +78,27 @@ curl -fsSL https://get.agentassembly.dev | sh
 - SDK repos (`python-sdk`, `node-sdk`, `go-sdk`) are tagged at `v0.0.1-alpha.1`.
 - Homebrew tap has `Formula/aasm.rb` with `version "0.0.1"`, but checksum placeholders are still all zero, so this should be treated as pre-stable/bootstrap state until real release artifacts and checksums are published.
 
-## 整理後的完整亮點清單（Production Highlights）
+## Full Production Highlights
 
-### 核心差異化（競爭護城河）
+### Core differentiation
 
-1. 最低侵入性：一行 init，任何 framework 通吃
-2. 三層攔截：語意 -> 協議 -> kernel，深度可選
-3. Secret Injection：LLM context 永不見真實 credential
-4. Tool Execution Sandbox：隔離執行，杜絕資安風險
-5. Human-in-the-loop Gate：高風險動作人工審核
+1. Lowest-intrusion integration: one-line init across major agent frameworks.
+2. Three-layer interception: semantic to protocol to kernel, with selectable depth.
+3. Secret Injection: real credentials never appear in LLM context windows.
+4. Tool Execution Sandbox: isolated execution to reduce security risk.
+5. Human-in-the-loop Gate: high-risk actions require human review.
 
-### 企業級治理能力
+### Enterprise governance
 
 1. Agent Identity and Zero-trust A2A
 2. Cost and Token Budget Governance
-3. Org / Team / Agent 層級管理
+3. Org / Team / Agent hierarchy management
 4. Audit Trail and Compliance Export
 
-### 部署彈性（降低採購阻力）
+### Deployment flexibility
 
-1. Local Dev Mode（零配置，OSS）
-2. Self-hosted Control Plane（企業 on-prem）
-3. SaaS Cloud（agent-assembly-cloud）
+1. Local Dev Mode (zero-config, OSS)
+2. Self-hosted Control Plane (enterprise on-prem)
+3. SaaS Cloud (`agent-assembly-cloud`)
 
-> 建議第一屏優先強調 ① 最低侵入性、③ Secret Injection、⑤ Human-in-the-loop Gate。這三個點是目前最強差異化。
+> Prioritize these three above the fold: lowest-intrusion integration, Secret Injection, and Human-in-the-loop Gate.
